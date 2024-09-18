@@ -514,4 +514,25 @@ display: block;
     }
     
 }
+.btn-prev{
+ left:266px !important;
+ border: none;
+ background-color: rgb(3, 193, 233);
+ opacity: 1;
+}
+.btn-next{
+ right:70px !important;
+ border: none;
+ background-color: rgb(3, 193, 233);
+opacity: 1;
+}
+@media (max-width: 576px) { /* Kích thước màn hình nhỏ hơn máy tính */ 
+    .btn-next{
+      opacity: 0;
+     }
+     .btn-prev{
+      opacity: 0;
+     }
+    
+}
 
