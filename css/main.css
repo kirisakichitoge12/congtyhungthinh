@@ -54,7 +54,7 @@ body {
   @media (max-width: 576px) { /* Kích thước màn hình nhỏ hơn máy tính */       
     .content-logo{
       color:rgb(59, 59, 59);
-      font-size: 14px;
+      font-size: 16px;
     }
     .img-logo{
       width: 118px;
